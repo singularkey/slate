@@ -14304,7 +14304,7 @@ resolve@^2.0.0-next.3:
   languageName: node
   linkType: hard
 
-"slate-history@workspace:*, slate-history@workspace:packages/slate-history":
+"slate-history@*, slate-history@workspace:packages/slate-history":
   version: 0.0.0-use.local
   resolution: "slate-history@workspace:packages/slate-history"
   dependencies:
@@ -14319,7 +14319,7 @@ resolve@^2.0.0-next.3:
   languageName: unknown
   linkType: soft
 
-"slate-hyperscript@^0.67.0, slate-hyperscript@workspace:*, slate-hyperscript@workspace:packages/slate-hyperscript":
+"slate-hyperscript@*, slate-hyperscript@^0.67.0, slate-hyperscript@workspace:packages/slate-hyperscript":
   version: 0.0.0-use.local
   resolution: "slate-hyperscript@workspace:packages/slate-hyperscript"
   dependencies:
@@ -14402,16 +14402,16 @@ resolve@^2.0.0-next.3:
     rollup-plugin-typescript2: ^0.27.2
     shell-quote: ^1.7.2
     simple-git-hooks: ">=2.0.3"
-    slate: "workspace:*"
-    slate-history: "workspace:*"
-    slate-hyperscript: "workspace:*"
-    slate-react: "workspace:*"
+    slate: "*"
+    slate-history: "*"
+    slate-hyperscript: "*"
+    slate-react: "*"
     source-map-loader: ^0.2.4
     typescript: 3.9.7
   languageName: unknown
   linkType: soft
 
-"slate-react@workspace:*, slate-react@workspace:packages/slate-react":
+"slate-react@*, slate-react@workspace:packages/slate-react":
   version: 0.0.0-use.local
   resolution: "slate-react@workspace:packages/slate-react"
   dependencies:
@@ -14440,7 +14440,7 @@ resolve@^2.0.0-next.3:
   languageName: unknown
   linkType: soft
 
-"slate@^0.72.0, slate@^0.72.2, slate@workspace:*, slate@workspace:packages/slate":
+"slate@*, slate@^0.72.0, slate@^0.72.2, slate@workspace:packages/slate":
   version: 0.0.0-use.local
   resolution: "slate@workspace:packages/slate"
   dependencies:
